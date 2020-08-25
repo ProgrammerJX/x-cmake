@@ -2,7 +2,7 @@ set(MODULE_NAME base_0)
 
 set(SOURCE_FILES base_0.cxx)
 include_directories(. ${X_INCLUDE})
-set(HEADER_FILES ${X_INCLUDE}/base_0.hpp)
+set(HEADER_FILES ${X_INCLUDE}/${MODULE_NAME}/base_0.hpp)
 # visual studio
 source_group("Header Files" FILES ${HEADER_FILES})
 
